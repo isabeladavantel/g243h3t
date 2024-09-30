@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #1A120B;
-    --primary-color: #da95d6;
-    --secundary-color: #f8f8f8;
-    --font: "Numans", sans-serif;
+    --bg-color: #b87fb5;
+    --primary-color: #f1f1f1;
+    --secondary-color: #f008e4;
+    --font: "Nunito Sans", sans-serif;
 }
 
 body {
@@ -36,17 +36,33 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--bg-color);
-    margin: 0rem 2rem 3rem 0rem;
-    font-size: 1.5rem;
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
 }
 
 nav a:hover {
     text-decoration: underline;
-    transform: scale(0.9);
+    transform: scale(0.90);
     transition: transform 0.1s;
 }
 
-footer{
+.graficos-container {
+    margin: 5rem;
+}
+
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
